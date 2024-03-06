@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layout*/
+#cabeçalho{
+   background-color:  #819FF7; /*define o retangulo para menus,logo*/
+   padding: 60px;
+   text-align: center;
+   height: 75px;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+#principal{
+    width: 920px; 
+    margin:0 auto;
+    padding: 35px;
+}
+
+.conteudolat{
+    background: white;
+    padding:10px;
+    margin-bottom:20px;
+}
+.postagemlat{
+    font-size: 0.8em;
+    padding: 6px;
+}
+#postagem{
+    width:660px;
+    float:left
+}
+.postagem{
+    padding:20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#lateral{
+    width:240px ;
+    float:right
+}
+#rodape{
+    clear: both;
+    background: #CCC;
+    text-align: center;
+    padding: 15px;
+}
+/*links*/
+a:link, a:visited{
+    color: #2E64FE;
+    text-decoration: none;
+ }
+a:hover{
+     color:#2E64FE;
+     background:#FFF;
+     text-decoration: none;
+ }
+#cabeçalho a:link, #cabeçalho a:visited{
+   color:#FFF;
+   text-decoration: none;
+   padding:8px 12px ;
+}
+#cabeçalho a:hover{
+    color:#2E64FE;
+    background:#FFF;
+    text-decoration: none;
+}
+
+/*formataçao geral*/
+h1{
+    color:#4e4e4e;
+    font-size: 2.5em;
+}
+h2{
+    color:#2E64FE;
+}
+.branco{
+    color:white
+}
+.datapostagem{
+    font-size: 0.8em;
+    border-bottom:1px solid #f4f4f4;
+    font-weight: bold;
+    display: block;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+h3{
+    color:#2E64FE;
+    background-color: #CCC;
+    padding:5px;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
